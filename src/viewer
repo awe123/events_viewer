@@ -1,0 +1,31 @@
+#import pygetwindow as gw
+import pygetwindow as pygetwindow
+
+#from win32 import *
+#from win32api import *
+#from win32con import *
+#from win32gui import *
+#from win32ui import *
+#from commctrl import *
+#from ctypes import *
+#import time
+#import threading
+#import win32gui
+#from os import *
+#from win32console import *
+
+
+
+print(pygetwindow.getAllTitles())
+print(pygetwindow.getAllWindows())
+# print(gw.getWindowsWithTitle('SpaceX®™ Environment'))
+
+
+
+
+# wnd = gw.getWindowsWithTitle('SpaceX®™ Environment')[0]
+#wnd = gw.getWindowsWithTitle('CityInfo 3.0: "Минск, 2014/15"')[0]
+#print(type(wnd))
+
+# wnd.resize(10, 10)
+#SendMessage(1245950, WM_CLOSE, 0, 0)
